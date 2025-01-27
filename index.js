@@ -5,10 +5,10 @@
 */
 
 // import the JSON data about the crowd funded games from the games.js file
-import GAMES_DATA from './games.js';
+import games from './games.js'; // Change import to match variable name
 
 // create a list of objects to store the data about the games using JSON.parse
-const GAMES_JSON = JSON.parse(GAMES_DATA)
+const GAMES_JSON = JSON.parse(games)
 
 // remove all child elements from a parent element in the DOM
 function deleteChildElements(parent) {
