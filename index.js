@@ -38,7 +38,7 @@ function addGamesToPage(games) {
         // set the inner HTML using a template literal to display some info 
         // about each game
         gameCard.innerHTML = `
-            <img src="${game.img}" alt="${game.name}" />
+            <img src="${game.img}" alt="${game.name}" class="game-img" />
             <h3>${game.name}</h3>
             <p>${game.description}</p>
             <p>Pledged: $${game.pledged.toLocaleString()}</p>
