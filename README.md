@@ -28,6 +28,8 @@ Here's a walkthrough of implemented features:
 
 Video walkthrough created with [Loom](https://www.loom.com/)
 
+
+
 ## Notes
 
 Challenges encountered:
